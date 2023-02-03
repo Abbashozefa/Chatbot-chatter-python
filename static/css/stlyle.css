@@ -60,7 +60,7 @@ h3 {
     padding: .4375rem 0;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     color: #495057;
     border:none;
@@ -101,7 +101,7 @@ button, input, optgroup, select, textarea {
     overflow:visible;
 }
 #chatbox {
-    background-color: rgb(80, 83, 83);
+    background-color: rgb(217, 231, 231);
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -120,7 +120,7 @@ button, input, optgroup, select, textarea {
     width: 87%;
     border: none;
     border-bottom: 3px solid #132524;
-    font-family: monospace;
+    font-family:'Times New Roman', Times, serif;
     font-size: 17px;
 }
 
