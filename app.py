@@ -8,7 +8,7 @@ time.clock = time.time
 
 chatbot=ChatBot('ChatGPT')
 trainer = ChatterBotCorpusTrainer(chatbot)
-trainer.train("chatterbot.corpus.english.greetings",
+trainer.train("chatterbot.corpus.english.movies","chatterbot.corpus.english.food","chatterbot.corpus.english.greetings",
               "chatterbot.corpus.english.conversations" )
 app=Flask(__name__)
 
