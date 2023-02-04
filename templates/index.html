@@ -10,7 +10,7 @@
 <body>
   <div class="row">
     <div class="col-md-10 mr-auto ml-auto">
-<h1>ChatGPT</h1>
+<h1>Sasta ChatGPT</h1>
 <form>
     <div id="chatbox">
         <div class="col-md-8 ml-auto mr-auto">
@@ -20,12 +20,27 @@
     <div id="userInput" class="row">
         <div class="col-md-10">
             <input id="text" type="text" name="msg" placeholder="Message" class="form-control">
-            <button type="submit" id="send" class="btn btn-warning"><b>Ask</b></button>
+            <button type="submit" id="send" class="btn btn-warning" ><b>Ask</b></button>
         </div>
     </div>
 </form>
 </div>
 </div>
+<center>
+<footer>
+    <p class="p">
+      Created using Chatterbot
+      
+      |
+      <span id="year">&copy; </span>
+      
+      <br>
+      ABBAS HOZEFA
+      
+     
+    </p>
+  </footer>
+</center>
 <script>
   $(document).ready(function() {
       $("form").on("submit", function(event) {
