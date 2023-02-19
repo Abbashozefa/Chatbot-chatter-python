@@ -92,12 +92,15 @@ h3 {
     color: #fff;
     background-color: #858676;
     border-color: #33322f;
-    
-    margin-left: 5rem;
+    position: relative;
+    bottom: 2.3rem;
+    left: 22rem;
+
     
 }
 .btn.btn-warning:active, .btn.btn-warning:focus, .btn.btn-warning:hover {
     box-shadow: 0 14px 26px -12px rgba(233, 222, 205, 0.42),0 4px 23px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(255,152,0,.2);
+    
 }
 
 button, input, optgroup, select, textarea {
@@ -121,6 +124,7 @@ button, input, optgroup, select, textarea {
     margin-right: auto;
     width: 40%;
     margin-top: 60px;
+    
 }
 
 #textInput {
